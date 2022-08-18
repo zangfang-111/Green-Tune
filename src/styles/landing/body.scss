@@ -1,0 +1,35 @@
+.ld-layout .ld-layout__body {
+  display: flex;
+  justify-content: space-between;
+  padding: 167px 55px 135px 42px;
+
+  .ld-layout__body-filter {
+    width: 14%;
+  }
+
+  .ld-layout__body-contents {
+    width: 85%;
+
+    > div:first-child {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+      padding-bottom: 24px;
+      margin-bottom: 36px;
+    }
+
+    .section-title {
+      font-family: 'Inter';
+      font-style: normal;
+      font-size: 30px;
+      color: #4b508c;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+
+    .cards-wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}

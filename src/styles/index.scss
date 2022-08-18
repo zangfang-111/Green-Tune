@@ -1,0 +1,27 @@
+@import './base/search';
+@import './base/checkbox';
+@import './base/button';
+@import './base/card';
+
+@import './landing/header.scss';
+@import './landing/body.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.root-container {
+  width: 1647px;
+  margin: auto;
+  box-sizing: border-box;
+}
